@@ -18,7 +18,7 @@ window.addEventListener('load', function() {
             connectWalletButton.innerText = 'Wallet Connected';
             
             // Load the music file (you need to have this file hosted somewhere)
-            audioSource.src = 'https://example.com/path/to/your/musicfile.mp3'; // Replace with your music file URL
+            audioSource.src = 'https://share.bridge.audio/sxr-music-group/1--stockholm-syndrome?id=ee4347be-20d6-45a3-909f-d08a0f8d322a'; // Replace with your music file URL
             audioPlayer.load();
         } catch (error) {
             console.error('Error connecting to wallet:', error);
